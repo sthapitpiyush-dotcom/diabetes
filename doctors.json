@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Dr. Mahesh Dahal",
+        "phone": "+977-984041332",
+        "email": "mahesh.dahal@diabetescare.com",
+        "specialty": "Diabetes Care",
+        "grade": "lower"
+    },
+    {
+        "name": "Dr. Rayan Dangol",
+        "phone": "+977-9840312212",
+        "email": "rayan.dangol@diabetescare.com",
+        "specialty": "Diabetes Care",
+        "grade": "lower"
+    },
+    {
+        "name": "Dr. Aayam Maharjan",
+        "phone": "+977-9840312332",
+        "email": "aayam.maharjan@diabetescare.com",
+        "specialty": "Diabetes Care",
+        "grade": "lower"
+    },
+    {
+        "name": "Dr. Rolisha Sthapit",
+        "phone": "+977-9840312354",
+        "email": "rolisha.sthapit@diabetesspecialist.com",
+        "specialty": "Diabetes Specialist",
+        "grade": "higher"
+    },
+    {
+        "name": "Dr. Aavash Maharjan",
+        "phone": "+977-9840312344",
+        "email": "aavash.maharjan@diabetesspecialist.com",
+        "specialty": "Diabetes Specialist",
+        "grade": "higher"
+    }
+]
+
+
+
+
+
+
