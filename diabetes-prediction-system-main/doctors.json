@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Dr. Rolisha Sthapit",
+        "specialty": "Senior Diabetologist & Endocrinologist",
+        "phone": "+977-9800000000",
+        "email": "dr.rolisha@healthcare.com",
+        "grade": "higher"
+    },
+    {
+        "name": "Dr. Rayan Dangol",
+        "specialty": "General Physician (Diabetes Care)",
+        "phone": "+977-9841000001",
+        "email": "dr.rayan@healthcare.com",
+        "grade": "lower"
+    },
+    {
+        "name": "Dr. Aayam Maharjan",
+        "specialty": "General Physician (Diabetes Care)",
+        "phone": "+977-9841000002",
+        "email": "dr.aayam@healthcare.com",
+        "grade": "lower"
+    }
+]

@@ -1,0 +1,4846 @@
+[
+  {
+    "id": 1,
+    "username": "user",
+    "timestamp": "2025-11-30T07:05:43.713750",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9501002280752763,
+    "probability_diabetes": 0.049899771924723786
+  },
+  {
+    "id": 2,
+    "username": "Lumin12",
+    "timestamp": "2025-11-30T07:11:18.149103",
+    "features": {
+      "Pregnancies": 3,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 1.0,
+    "probability_diabetes": 0.0
+  },
+  {
+    "id": 3,
+    "username": "Lumin12",
+    "timestamp": "2025-11-30T07:11:27.200309",
+    "features": {
+      "Pregnancies": 16,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.7482775104873306,
+    "probability_diabetes": 0.25172248951266946
+  },
+  {
+    "id": 4,
+    "username": "user",
+    "timestamp": "2025-11-30T07:48:51.537867",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9479824165782016,
+    "probability_diabetes": 0.05201758342179849
+  },
+  {
+    "id": 5,
+    "username": "user",
+    "timestamp": "2025-11-30T08:12:01.477497",
+    "features": {
+      "Pregnancies": 5,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 70.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.6242245426923327,
+    "probability_diabetes": 0.37577545730766726
+  },
+  {
+    "id": 6,
+    "username": "user",
+    "timestamp": "2025-11-30T08:12:26.311651",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 119,
+      "SkinThickness": 20,
+      "BMI": 70.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.531500042787812,
+    "probability_diabetes": 0.4684999572121879
+  },
+  {
+    "id": 7,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:46:20.416198",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9479824165782016,
+    "probability_diabetes": 0.05201758342179849
+  },
+  {
+    "id": 8,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:46:27.484858",
+    "features": {
+      "Pregnancies": 5,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.8674301537989817,
+    "probability_diabetes": 0.1325698462010183
+  },
+  {
+    "id": 9,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:49:35.102184",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.8258378150551686,
+    "probability_diabetes": 0.1741621849448314
+  },
+  {
+    "id": 10,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:49:45.079905",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.80000000000001,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.7320471210463358,
+    "probability_diabetes": 0.2679528789536642
+  },
+  {
+    "id": 11,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:49:50.744521",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 27.300000000000033,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.57696493904564,
+    "probability_diabetes": 0.42303506095435994
+  },
+  {
+    "id": 12,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:49:57.537546",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 28.100000000000044,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5633948181555414,
+    "probability_diabetes": 0.43660518184445873
+  },
+  {
+    "id": 13,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:02.611465",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5582150151654012,
+    "probability_diabetes": 0.4417849848345989
+  },
+  {
+    "id": 14,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:09.708972",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 107,
+      "SkinThickness": 21,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5260991266783868,
+    "probability_diabetes": 0.4739008733216133
+  },
+  {
+    "id": 15,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:14.285353",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 109,
+      "SkinThickness": 29,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5941979379756369,
+    "probability_diabetes": 0.40580206202436314
+  },
+  {
+    "id": 16,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:19.606531",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 108,
+      "SkinThickness": 16,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5541696827312058,
+    "probability_diabetes": 0.44583031726879424
+  },
+  {
+    "id": 17,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:21.750742",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 108,
+      "SkinThickness": 15,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5545572727572309,
+    "probability_diabetes": 0.4454427272427691
+  },
+  {
+    "id": 18,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:22.174375",
+    "features": {
+      "Pregnancies": 6,
+      "Glucose": 108,
+      "SkinThickness": 15,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5545572727572309,
+    "probability_diabetes": 0.4454427272427691
+  },
+  {
+    "id": 19,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:26.300174",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 113,
+      "SkinThickness": 15,
+      "BMI": 28.100000000000044,
+      "Age": 45
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5685726396257382,
+    "probability_diabetes": 0.4314273603742617
+  },
+  {
+    "id": 20,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:32.115684",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 113,
+      "SkinThickness": 15,
+      "BMI": 28.100000000000044,
+      "Age": 55
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.642956129459245,
+    "probability_diabetes": 0.35704387054075504
+  },
+  {
+    "id": 21,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:39.146709",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 113,
+      "SkinThickness": 15,
+      "BMI": 29.10000000000006,
+      "Age": 54
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5851032884657005,
+    "probability_diabetes": 0.41489671153429947
+  },
+  {
+    "id": 22,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:45.766308",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 101,
+      "SkinThickness": 15,
+      "BMI": 29.10000000000006,
+      "Age": 53
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.6468398739884929,
+    "probability_diabetes": 0.3531601260115071
+  },
+  {
+    "id": 23,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:50:46.191970",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 101,
+      "SkinThickness": 15,
+      "BMI": 29.10000000000006,
+      "Age": 53
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.6468398739884929,
+    "probability_diabetes": 0.3531601260115071
+  },
+  {
+    "id": 24,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:51:08.671235",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 300,
+      "SkinThickness": 15,
+      "BMI": 29.10000000000006,
+      "Age": 53
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.44043926590327936,
+    "probability_diabetes": 0.5595607340967206
+  },
+  {
+    "id": 25,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:51:09.145808",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 300,
+      "SkinThickness": 15,
+      "BMI": 29.10000000000006,
+      "Age": 53
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.44043926590327936,
+    "probability_diabetes": 0.5595607340967206
+  },
+  {
+    "id": 26,
+    "username": "Lumin",
+    "timestamp": "2025-12-17T21:51:42.100021",
+    "features": {
+      "Pregnancies": 7,
+      "Glucose": 300,
+      "SkinThickness": 15,
+      "BMI": 50.0,
+      "Age": 60
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2082711816824867,
+    "probability_diabetes": 0.7917288183175133
+  },
+  {
+    "id": 27,
+    "username": "user",
+    "timestamp": "2025-12-17T22:00:12.415194",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 42
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.332714242591195,
+    "probability_diabetes": 0.6672857574088051
+  },
+  {
+    "id": 28,
+    "username": "user",
+    "timestamp": "2025-12-17T22:00:41.459031",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 18
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9114711356375732,
+    "probability_diabetes": 0.08852886436242674
+  },
+  {
+    "id": 29,
+    "username": "user",
+    "timestamp": "2025-12-17T22:00:49.171396",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 75
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.444816598140745,
+    "probability_diabetes": 0.555183401859255
+  },
+  {
+    "id": 30,
+    "username": "user",
+    "timestamp": "2025-12-17T22:00:57.748489",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 60
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.40094641443021234,
+    "probability_diabetes": 0.5990535855697876
+  },
+  {
+    "id": 31,
+    "username": "user",
+    "timestamp": "2025-12-17T22:01:05.779995",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 50.0,
+      "Age": 60
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2199224274014207,
+    "probability_diabetes": 0.7800775725985792
+  },
+  {
+    "id": 32,
+    "username": "user",
+    "timestamp": "2025-12-17T22:02:22.811061",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 40,
+      "SkinThickness": 20,
+      "BMI": 50.0,
+      "Age": 120
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.7740493292048705,
+    "probability_diabetes": 0.2259506707951296
+  },
+  {
+    "id": 33,
+    "username": "user",
+    "timestamp": "2025-12-17T22:02:35.146554",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 50.0,
+      "Age": 120
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1788900618348135,
+    "probability_diabetes": 0.8211099381651864
+  },
+  {
+    "id": 34,
+    "username": "piyush",
+    "timestamp": "2025-12-17T22:21:26.445352",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9479824165782016,
+    "probability_diabetes": 0.05201758342179849
+  },
+  {
+    "id": 35,
+    "username": "user",
+    "timestamp": "2025-12-18T08:50:19.799978",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9479824165782016,
+    "probability_diabetes": 0.05201758342179849
+  },
+  {
+    "id": 36,
+    "username": "user",
+    "timestamp": "2025-12-18T08:50:44.189887",
+    "features": {
+      "Gender": "Male",
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.48977545382170684,
+    "probability_diabetes": 0.5102245461782932
+  },
+  {
+    "id": 37,
+    "username": "Lumin",
+    "timestamp": "2025-12-18T23:14:48.206683",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 25.0,
+      "Age": 30,
+      "Gender": "Male"
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9501002280752763,
+    "probability_diabetes": 0.049899771924723786,
+    "recommended_doctor": null
+  },
+  {
+    "id": 38,
+    "username": "Lumin",
+    "timestamp": "2025-12-18T23:15:06.166589",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 40.0,
+      "Age": 30,
+      "Gender": "Male"
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.150895926312237,
+    "probability_diabetes": 0.849104073687763,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 39,
+    "username": "Lumin",
+    "timestamp": "2025-12-18T23:23:04.897260",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 26.360596938880953,
+      "Age": 50,
+      "Gender": "Male",
+      "Height (feet)": 7.0,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.41149842739535475,
+    "probability_diabetes": 0.5885015726046453,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 40,
+    "username": "crazydiabtiic",
+    "timestamp": "2025-12-18T23:23:43.433570",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 41,
+    "username": "user",
+    "timestamp": "2025-12-18T23:26:38.572955",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 23.19094272605973,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9531346142070461,
+    "probability_diabetes": 0.04686538579295386,
+    "recommended_doctor": null
+  },
+  {
+    "id": 42,
+    "username": "user",
+    "timestamp": "2025-12-18T23:27:16.345233",
+    "features": {
+      "Pregnancies": 40,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 23.19094272605973,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.7750270504206304,
+    "probability_diabetes": 0.22497294957936964,
+    "recommended_doctor": null
+  },
+  {
+    "id": 43,
+    "username": "user",
+    "timestamp": "2025-12-18T23:27:18.113260",
+    "features": {
+      "Pregnancies": 40,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 23.19094272605973,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.7750270504206304,
+    "probability_diabetes": 0.22497294957936964,
+    "recommended_doctor": null
+  },
+  {
+    "id": 44,
+    "username": "user",
+    "timestamp": "2025-12-18T23:27:33.682941",
+    "features": {
+      "Pregnancies": 5,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 23.19094272605973,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3685403214462344,
+    "probability_diabetes": 0.6314596785537656,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 45,
+    "username": "user",
+    "timestamp": "2025-12-19T13:18:00.283557",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 46,
+    "username": "user",
+    "timestamp": "2025-12-19T13:18:10.516615",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 47,
+    "username": "admin",
+    "timestamp": "2025-12-21T06:54:49.693864",
+    "features": {
+      "Pregnancies": 8,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3511102760837185,
+    "probability_diabetes": 0.6488897239162815,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 48,
+    "username": "user",
+    "timestamp": "2025-12-21T07:15:00.065684",
+    "features": {
+      "Pregnancies": 23,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3550703405349068,
+    "probability_diabetes": 0.6449296594650932,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 49,
+    "username": "user",
+    "timestamp": "2025-12-21T07:22:25.795666",
+    "features": {
+      "Pregnancies": 3,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 22.398148905162923,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.799999999999999,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.4475680529080029,
+    "probability_diabetes": 0.5524319470919972,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 50,
+    "username": "admin",
+    "timestamp": "2025-12-23T15:28:41.305068",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 51,
+    "username": "admin",
+    "timestamp": "2025-12-23T15:28:47.995612",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 52,
+    "username": "admin",
+    "timestamp": "2025-12-24T07:48:37.663997",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 53,
+    "username": "user",
+    "timestamp": "2025-12-31T07:21:28.629710",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 54,
+    "username": "user",
+    "timestamp": "2025-12-31T07:21:36.860747",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 55,
+    "username": "user",
+    "timestamp": "2025-12-31T07:40:59.162710",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 56,
+    "username": "user",
+    "timestamp": "2025-12-31T09:12:07.500953",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 57,
+    "username": "kritesh maharjan",
+    "timestamp": "2025-12-31T09:34:10.858325",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 30,
+      "BMI": 19.87795090805119,
+      "Age": 21,
+      "Gender": "Male",
+      "Height (feet)": 5.7,
+      "Weight (kg)": 60.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.952744712868819,
+    "probability_diabetes": 0.04725528713118095,
+    "recommended_doctor": null
+  },
+  {
+    "id": 58,
+    "username": "kritesh maharjan",
+    "timestamp": "2025-12-31T09:34:20.903041",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 19.87795090805119,
+      "Age": 21,
+      "Gender": "Male",
+      "Height (feet)": 5.7,
+      "Weight (kg)": 60.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.8761275225695636,
+    "probability_diabetes": 0.1238724774304365,
+    "recommended_doctor": null
+  },
+  {
+    "id": 59,
+    "username": "kritesh maharjan",
+    "timestamp": "2025-12-31T09:34:34.180540",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 26.503934544068255,
+      "Age": 21,
+      "Gender": "Male",
+      "Height (feet)": 5.7,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.8900275539908393,
+    "probability_diabetes": 0.10997244600916065,
+    "recommended_doctor": null
+  },
+  {
+    "id": 60,
+    "username": "kritesh maharjan",
+    "timestamp": "2025-12-31T09:34:44.027605",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 37.374688946908705,
+      "Age": 21,
+      "Gender": "Male",
+      "Height (feet)": 4.800000000000003,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.41709320853736115,
+    "probability_diabetes": 0.5829067914626388,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 61,
+    "username": "piyush123",
+    "timestamp": "2026-01-01T20:26:03.236323",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 62,
+    "username": "piyush123",
+    "timestamp": "2026-01-01T20:26:03.595194",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 63,
+    "username": "piyush123",
+    "timestamp": "2026-01-01T20:26:09.444796",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 64,
+    "username": "piyush123",
+    "timestamp": "2026-01-05T07:19:50.167537",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 104,
+      "SkinThickness": 25,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.951480341340535,
+    "probability_diabetes": 0.04851965865946489,
+    "recommended_doctor": null
+  },
+  {
+    "id": 65,
+    "username": "piyush123",
+    "timestamp": "2026-01-05T07:19:55.211307",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 104,
+      "SkinThickness": 25,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.951480341340535,
+    "probability_diabetes": 0.04851965865946489,
+    "recommended_doctor": null
+  },
+  {
+    "id": 66,
+    "username": "piyush123",
+    "timestamp": "2026-01-05T07:20:24.427920",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 25,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.578156763166338,
+    "probability_diabetes": 0.42184323683366187,
+    "recommended_doctor": null
+  },
+  {
+    "id": 67,
+    "username": "piyush123",
+    "timestamp": "2026-01-05T07:20:30.061237",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 68,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T09:04:11.021481",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 69,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T09:04:39.205143",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 70,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T09:05:12.234675",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 71,
+    "username": null,
+    "timestamp": "2026-01-07T13:52:05.796325",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 72,
+    "username": null,
+    "timestamp": "2026-01-07T13:52:14.454857",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 73,
+    "username": "admin",
+    "timestamp": "2026-01-07T13:52:57.958516",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 74,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T14:03:15.378263",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 75,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T14:03:52.813986",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 76,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T14:04:04.456902",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 63.78613580272416,
+      "Age": 33,
+      "Gender": "Male",
+      "Height (feet)": 4.5000000000000036,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1973354603034671,
+    "probability_diabetes": 0.8026645396965328,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 77,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-07T14:04:08.403740",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 63.78613580272416,
+      "Age": 33,
+      "Gender": "Male",
+      "Height (feet)": 4.5000000000000036,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1973354603034671,
+    "probability_diabetes": 0.8026645396965328,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 78,
+    "username": "piyush123",
+    "timestamp": "2026-01-07T14:06:00.483764",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 79,
+    "username": "user",
+    "timestamp": "2026-01-07T14:09:24.512722",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 80,
+    "username": "user",
+    "timestamp": "2026-01-07T14:09:35.908160",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.735393092457436,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.1
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1530192492858152,
+    "probability_diabetes": 0.8469807507141848,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 81,
+    "username": "user",
+    "timestamp": "2026-01-07T14:09:36.296386",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.735393092457436,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.1
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1530192492858152,
+    "probability_diabetes": 0.8469807507141848,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 82,
+    "username": "user",
+    "timestamp": "2026-01-07T14:13:24.402427",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 83,
+    "username": "user",
+    "timestamp": "2026-01-07T14:13:42.330205",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 19.926577961512212,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 56.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.548187275912324,
+    "probability_diabetes": 0.4518127240876761,
+    "recommended_doctor": null
+  },
+  {
+    "id": 84,
+    "username": "user",
+    "timestamp": "2026-01-07T14:13:50.329416",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 85,
+    "username": "user",
+    "timestamp": "2026-01-07T14:15:10.459275",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 86,
+    "username": "user",
+    "timestamp": "2026-01-07T14:18:59.671118",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 87,
+    "username": "user",
+    "timestamp": "2026-01-07T14:19:03.046939",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 88,
+    "username": "user",
+    "timestamp": "2026-01-07T14:24:26.229682",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 89,
+    "username": "user",
+    "timestamp": "2026-01-07T14:24:49.682825",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 90,
+    "username": "user",
+    "timestamp": "2026-01-07T14:28:08.909447",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 91,
+    "username": "user",
+    "timestamp": "2026-01-07T14:31:39.333723",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 92,
+    "username": "user",
+    "timestamp": "2026-01-07T14:31:47.260999",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 39.14149242439899,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 110.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.18919082891411823,
+    "probability_diabetes": 0.8108091710858818,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 93,
+    "username": "user",
+    "timestamp": "2026-01-07T14:32:46.695052",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2511564206280407,
+    "probability_diabetes": 0.7488435793719593,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 94,
+    "username": "user",
+    "timestamp": "2026-01-07T14:32:56.743698",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 27,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.26086675903990325,
+    "probability_diabetes": 0.7391332409600968,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "phone": "+977-9840312354",
+      "email": "rolisha.sthapit@diabetesspecialist.com",
+      "specialty": "Diabetes Specialist",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 95,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:04.879229",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 24,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5638693192687239,
+    "probability_diabetes": 0.43613068073127614,
+    "recommended_doctor": null
+  },
+  {
+    "id": 96,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:08.987170",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 25,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5252000921106738,
+    "probability_diabetes": 0.47479990788932624,
+    "recommended_doctor": null
+  },
+  {
+    "id": 97,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:11.596622",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 98,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:16.477135",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 99,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:19.935489",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 100,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:22.627141",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 101,
+    "username": "user",
+    "timestamp": "2026-01-07T14:33:24.495335",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 102,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:27.399411",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 103,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:30.186690",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 104,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:31.195431",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 105,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:32.731474",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 106,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:33.331849",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 107,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:33.640680",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 108,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:33.866434",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 109,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:34.055612",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 110,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:34.220061",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 111,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:34.439234",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 112,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:34.620021",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 113,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:34.794346",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 114,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:34.980369",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 115,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:35.169092",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 116,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:35.404232",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 117,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:35.603076",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 118,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:35.786620",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 26,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3936846174621501,
+    "probability_diabetes": 0.6063153825378499,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 119,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:49.064113",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 120,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:55.044500",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 121,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:58.076301",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 122,
+    "username": "user",
+    "timestamp": "2026-01-07T14:34:59.919720",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 123,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:00.825283",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 124,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:01.391822",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 125,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:02.325833",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 126,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:02.840671",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 127,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:03.155475",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 128,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:03.369446",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 129,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:03.555874",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 130,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:03.743667",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 131,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:03.931137",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 132,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:04.117124",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 133,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:04.468286",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 134,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:04.659750",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 135,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:05.046905",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 136,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:05.546830",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 137,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:05.885399",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "phone": "+977-9840312212",
+      "email": "rayan.dangol@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 138,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:06.075792",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 139,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:06.261387",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Mahesh Dahal",
+      "specialty": "Diabetes Care",
+      "phone": "+977-984041332",
+      "email": "mahesh.dahal@diabetescare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 140,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:06.447454",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "phone": "+977-9840312332",
+      "email": "aayam.maharjan@diabetescare.com",
+      "specialty": "Diabetes Care",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 141,
+    "username": "user",
+    "timestamp": "2026-01-07T14:35:06.639609",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aavash Maharjan",
+      "specialty": "Diabetes Specialist",
+      "phone": "+977-9840312344",
+      "email": "aavash.maharjan@diabetesspecialist.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 142,
+    "username": "user",
+    "timestamp": "2026-01-07T14:40:47.771657",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 143,
+    "username": "user",
+    "timestamp": "2026-01-07T14:40:49.171921",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 144,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:06.163512",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 35.583174931271806,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 100.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.19094297668824464,
+    "probability_diabetes": 0.8090570233117553,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 145,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:18.394225",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 28.466539945017445,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.401321099720975,
+    "probability_diabetes": 0.598678900279025,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 146,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:30.802676",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 28.466539945017445,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.401321099720975,
+    "probability_diabetes": 0.598678900279025,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 147,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:32.570835",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 28.466539945017445,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.401321099720975,
+    "probability_diabetes": 0.598678900279025,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 148,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:34.848308",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 28.466539945017445,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.401321099720975,
+    "probability_diabetes": 0.598678900279025,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 149,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:36.427596",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 28.466539945017445,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.401321099720975,
+    "probability_diabetes": 0.598678900279025,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 150,
+    "username": "user",
+    "timestamp": "2026-01-07T14:41:38.307182",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 28.466539945017445,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 80.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.401321099720975,
+    "probability_diabetes": 0.598678900279025,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 151,
+    "username": "user",
+    "timestamp": "2026-01-07T14:42:32.859521",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 152,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:18.361368",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 30,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.8041869493215213,
+    "probability_diabetes": 0.19581305067847865,
+    "recommended_doctor": null
+  },
+  {
+    "id": 153,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:23.863714",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 154,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:26.994485",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 155,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:28.675739",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 156,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:29.159849",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 157,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:29.350057",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 158,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:29.506312",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 159,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:29.693017",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 160,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:29.875236",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 161,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:30.066912",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 162,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:30.247671",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 163,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:30.462138",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 164,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:30.638323",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 165,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:30.831269",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 166,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:31.011895",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 167,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:31.208540",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 168,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:31.394909",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 169,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:31.587631",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 170,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:31.783157",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 171,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:35.753549",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 172,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:37.346475",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 173,
+    "username": "user",
+    "timestamp": "2026-01-07T14:47:49.401331",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 174,
+    "username": "user",
+    "timestamp": "2026-01-07T14:56:38.471853",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Piyush Sthapit",
+      "specialty": "diabetes sepcialiest",
+      "phone": "+977-9813733870",
+      "email": "sthapitpiyush@gmail.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 175,
+    "username": "user",
+    "timestamp": "2026-01-07T14:56:51.075344",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 176,
+    "username": "user",
+    "timestamp": "2026-01-07T14:56:52.242210",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 177,
+    "username": "user",
+    "timestamp": "2026-01-07T14:56:52.964072",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 178,
+    "username": "user",
+    "timestamp": "2026-01-07T14:56:53.654908",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Piyush Sthapit",
+      "specialty": "diabetes sepcialiest",
+      "phone": "+977-9813733870",
+      "email": "sthapitpiyush@gmail.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 179,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:10:16.366939",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 180,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:10:17.652948",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 181,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:10:29.152379",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 42.69980991752617,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 120.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.1529389466711665,
+    "probability_diabetes": 0.8470610533288335,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 182,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:10:42.740860",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 43.1268080167014,
+      "Age": 41,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 121.19999999999993
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.24906540223632362,
+    "probability_diabetes": 0.7509345977636763,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 183,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:11:06.553238",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 66.25983636017067,
+      "Age": 41,
+      "Gender": "Male",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 200.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2135534426712386,
+    "probability_diabetes": 0.7864465573287613,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 184,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:11:06.822054",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 66.25983636017067,
+      "Age": 41,
+      "Gender": "Male",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 200.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2135534426712386,
+    "probability_diabetes": 0.7864465573287613,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 185,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:11:10.600213",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 66.25983636017067,
+      "Age": 40,
+      "Gender": "Male",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 200.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2108926139641107,
+    "probability_diabetes": 0.7891073860358893,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 186,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:11:15.397158",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 66.25983636017067,
+      "Age": 20,
+      "Gender": "Male",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 200.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.4127061284178151,
+    "probability_diabetes": 0.5872938715821848,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 187,
+    "username": "admin",
+    "timestamp": "2026-01-07T15:11:22.715848",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 66.25983636017067,
+      "Age": 80,
+      "Gender": "Male",
+      "Height (feet)": 5.699999999999999,
+      "Weight (kg)": 200.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.2708404001913859,
+    "probability_diabetes": 0.7291595998086141,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 188,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-01-31T09:06:09.093598",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 189,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-11T15:03:37.854180",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 190,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-11T15:03:46.729715",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 191,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-11T15:03:53.127236",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 150,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5776804289276047,
+    "probability_diabetes": 0.42231957107239537,
+    "recommended_doctor": null
+  },
+  {
+    "id": 192,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-11T15:03:58.233807",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 150,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5776804289276047,
+    "probability_diabetes": 0.42231957107239537,
+    "recommended_doctor": null
+  },
+  {
+    "id": 193,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-11T15:04:02.833491",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 150,
+      "SkinThickness": 100,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5232178984144651,
+    "probability_diabetes": 0.47678210158553486,
+    "recommended_doctor": null
+  },
+  {
+    "id": 194,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-11T15:04:09.956916",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 250,
+      "SkinThickness": 100,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.4691190116167086,
+    "probability_diabetes": 0.5308809883832915,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 195,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-20T08:32:13.122387",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 196,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-20T08:32:18.968756",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 197,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-20T08:33:06.739469",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 10,
+      "SkinThickness": 10,
+      "BMI": 14.295818522192599,
+      "Age": 100,
+      "Gender": "Male",
+      "Height (feet)": 8.0,
+      "Weight (kg)": 85.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.8468567546586503,
+    "probability_diabetes": 0.15314324534134982,
+    "recommended_doctor": null
+  },
+  {
+    "id": 198,
+    "username": "kritesh maharjan",
+    "timestamp": "2026-02-20T08:33:32.578351",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 297,
+      "SkinThickness": 100,
+      "BMI": 14.295818522192599,
+      "Age": 50,
+      "Gender": "Male",
+      "Height (feet)": 8.0,
+      "Weight (kg)": 85.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.3797906269298184,
+    "probability_diabetes": 0.6202093730701815,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 199,
+    "username": "user",
+    "timestamp": "2026-02-20T10:30:18.324721",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 200,
+    "username": "user",
+    "timestamp": "2026-02-20T10:30:24.432116",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 201,
+    "username": "user",
+    "timestamp": "2026-02-21T14:26:59.852196",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 202,
+    "username": "user",
+    "timestamp": "2026-04-12T12:59:57.694083",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 203,
+    "username": "user",
+    "timestamp": "2026-04-12T13:00:09.434263",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 204,
+    "username": "user",
+    "timestamp": "2026-04-12T13:00:20.175136",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 205,
+    "username": "user",
+    "timestamp": "2026-04-12T13:00:22.450352",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 99,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.4781877374692379,
+    "probability_diabetes": 0.5218122625307622,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 206,
+    "username": "user",
+    "timestamp": "2026-04-12T13:00:34.532471",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 99,
+      "BMI": 24.908222451890264,
+      "Age": 99,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.27777639629273654,
+    "probability_diabetes": 0.7222236037072635,
+    "recommended_doctor": {
+      "name": "Dr. Rolisha Sthapit",
+      "specialty": "Senior Diabetologist & Endocrinologist",
+      "phone": "+977-9800000000",
+      "email": "dr.rolisha@healthcare.com",
+      "grade": "higher"
+    }
+  },
+  {
+    "id": 207,
+    "username": "user",
+    "timestamp": "2026-04-12T15:14:49.544342",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 208,
+    "username": "user",
+    "timestamp": "2026-04-12T15:14:58.129393",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 209,
+    "username": "user",
+    "timestamp": "2026-04-13T08:28:40.752081",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 210,
+    "username": "user",
+    "timestamp": "2026-04-13T08:28:47.071444",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 300,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 211,
+    "username": "user",
+    "timestamp": "2026-04-13T10:38:45.452475",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 212,
+    "username": "user",
+    "timestamp": "2026-04-13T10:42:02.346134",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 213,
+    "username": "user",
+    "timestamp": "2026-04-13T10:42:24.976224",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 200,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.45140069573299113,
+    "probability_diabetes": 0.5485993042670088,
+    "recommended_doctor": {
+      "name": "Dr. Rayan Dangol",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000001",
+      "email": "dr.rayan@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 214,
+    "username": "user",
+    "timestamp": "2026-04-13T10:42:37.485515",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 150,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.5776804289276047,
+    "probability_diabetes": 0.42231957107239537,
+    "recommended_doctor": null
+  },
+  {
+    "id": 215,
+    "username": "user",
+    "timestamp": "2026-04-13T10:42:56.949925",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 150,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 1,
+    "probability_no_diabetes": 0.39779448414084234,
+    "probability_diabetes": 0.6022055158591576,
+    "recommended_doctor": {
+      "name": "Dr. Aayam Maharjan",
+      "specialty": "General Physician (Diabetes Care)",
+      "phone": "+977-9841000002",
+      "email": "dr.aayam@healthcare.com",
+      "grade": "lower"
+    }
+  },
+  {
+    "id": 216,
+    "username": "user",
+    "timestamp": "2026-04-13T10:43:04.463407",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 32.02485743814463,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 90.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.756790019138426,
+    "probability_diabetes": 0.24320998086157394,
+    "recommended_doctor": null
+  },
+  {
+    "id": 217,
+    "username": "user",
+    "timestamp": "2026-04-13T12:27:39.871156",
+    "features": {
+      "Pregnancies": 0,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Male",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.9503035949152128,
+    "probability_diabetes": 0.04969640508478719,
+    "recommended_doctor": null
+  },
+  {
+    "id": 218,
+    "username": "user",
+    "timestamp": "2026-04-13T12:28:05.513342",
+    "features": {
+      "Pregnancies": 12,
+      "Glucose": 100,
+      "SkinThickness": 20,
+      "BMI": 24.908222451890264,
+      "Age": 30,
+      "Gender": "Female",
+      "Height (feet)": 5.5,
+      "Weight (kg)": 70.0
+    },
+    "prediction": 0,
+    "probability_no_diabetes": 0.7629879256066879,
+    "probability_diabetes": 0.23701207439331215,
+    "recommended_doctor": null
+  }
+]
