@@ -1,0 +1,32 @@
+<!-- Right Connection Node (Dot of second 'i') -->
+<circle cx="528" cy="110" r="16" fill="url(#brand-grad)" />
+
+<!-- Upper Conduit Flow -->
+<path d="M 304,110 L 368,110 L 383,90 L 433,90 L 448,110 L 512,110" 
+      fill="none" 
+      stroke="url(#brand-grad)" 
+      stroke-width="12" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" />
+
+<!-- Lower Conduit Flow -->
+<path d="M 368,110 L 383,130 L 433,130 L 448,110" 
+      fill="none" 
+      stroke="url(#brand-grad)" 
+      stroke-width="12" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" />
+
+
+<!-- Letter 'i' (first) -->
+<path d="M 288,195 L 288,275" />
+
+<!-- Letter 'm' (double arches) -->
+<path d="M 358,275 L 358,205 A 25,25 0 0,1 408,205 L 408,275 A 25,25 0 0,1 458,205 L 458,275" />
+
+<!-- Letter 'i' (second) -->
+<path d="M 528,195 L 528,275" />
+
+<!-- Letter 'd' -->
+<path d="M 628,235 A 35,35 0 1,1 628,234.9" />
+<path d="M 628,135 L 628,275" />

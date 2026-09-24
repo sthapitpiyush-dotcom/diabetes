@@ -1,0 +1,46 @@
+{
+  "admin": {
+    "password": "admin123",
+    "role": "admin"
+  },
+  "user": {
+    "password": "user123",
+    "role": "user"
+  },
+  "Lumin12": {
+    "password": "lumin123",
+    "role": "user"
+  },
+  "Lumin": {
+    "password": "123456",
+    "role": "user"
+  },
+  "piyush": {
+    "password": "123456",
+    "role": "user"
+  },
+  "crazydiabtiic": {
+    "password": "123456",
+    "role": "user"
+  },
+  "kritesh maharjan": {
+    "password": "Kritesh@123",
+    "role": "user"
+  },
+  "Biran Thapa Magar": {
+    "password": "123456",
+    "role": "user"
+  },
+  "Birn Thapa Magar": {
+    "password": "123456",
+    "role": "user"
+  },
+  "piyush123": {
+    "password": "123456",
+    "role": "user"
+  },
+  "Pratik Badu": {
+    "password": "123456",
+    "role": "user"
+  }
+}

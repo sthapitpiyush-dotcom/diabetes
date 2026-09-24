@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aimid — Enterprise Logo Vector Generator</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- PPTXGenJS Library for client-side slide generation -->
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #030712;
+        }
+        .code-font {
+            font-family: 'Space Mono', monospace;
+        }
+    </style>
+</head>
+<body class="h-full text-slate-100 flex flex-col justify-between">
+
+    <!-- Header -->
+    <header class="border-b border-slate-800/80 bg-slate-950/50 backdrop-blur-md sticky top-0 z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-sm tracking-tighter text-slate-950">
+                    ai
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent">aimid</h1>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">Enterprise Control Layer</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="px-2.5 py-1 text-xs font-semibold text-cyan-400 bg-cyan-950/50 rounded-full border border-cyan-800/50">Vector Engine v1.0</span>
+                <span class="px-2.5 py-1 text-xs font-semibold text-slate-400 bg-slate-900/50 rounded-full border border-slate-800/50">Widescreen 16:9</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-grow max-w-7xl w-full mx-auto p-4 md:p-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+        
+        <!-- Left: Live Preview Card -->
+        <div class="w-full lg:w-3/5 flex flex-col gap-4">
+            <div class="bg-slate-950 rounded-2xl border border-slate-800/80 p-4 shadow-2xl relative group">
+                <div class="flex items-center justify-between mb-3 text-xs text-slate-500">
+                    <span class="flex items-center gap-1.5 font-medium"><span class="w-2 h-2 rounded-full bg-cyan-500 animate-pulse"></span>Real-time Vector Preview</span>
+                    <span>1920 × 1080 (CSS Scaled)</span>
+                </div>
+                
+                <!-- SVG Canvas Mimicking actual PowerPoint ratios -->
+                <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800 bg-[#0B0F19] relative flex items-center justify-center">
+                    <svg viewBox="0 0 1333 750" class="w-full h-full">
+                        <!-- Left Pillar (Secure Slate) -->
+                        <rect x="566" y="250" width="40" height="180" rx="8" fill="#334155" />
+                        
+                        <!-- Right Pillar (Secure Slate) -->
+                        <rect x="726" y="250" width="40" height="180" rx="8" fill="#334155" />
+                        
+                        <!-- Center Pillar (Kinetic Teal) -->
+                        <rect x="646" y="180" width="40" height="250" rx="8" fill="#00F2FE" />
+                        
+                        <!-- Left Bridge (Angled pathway) -->
+                        <!-- Rotated centered around roughly (592, 215) -->
+                        <rect x="592" y="215" width="70" height="20" fill="#1E293B" transform="rotate(-35, 592, 215)" />
+                        
+                        <!-- Right Bridge (Angled pathway) -->
+                        <!-- Rotated centered around roughly (671, 215) -->
+                        <rect x="671" y="215" width="70" height="20" fill="#1E293B" transform="rotate(35, 671, 215)" />
+                        
+                        <!-- Typography Name -->
+                        <text x="666" y="520" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui" font-size="56" font-weight="800" fill="#FFFFFF" letter-spacing="2">aimid</text>
+                        
+                        <!-- Subtitle -->
+                        <text x="666" y="570" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="4">AI MIDDLEWARE FOR THE ENTERPRISE</text>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Quick Tips Panel -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <div class="bg-slate-950/40 border border-slate-900 rounded-xl p-3 flex flex-col gap-1">
+                    <p class="text-xs font-bold text-slate-300">100% Editable</p>
+                    <p class="text-[11px] text-slate-500">Every single bar, connector, and text block is built as a native shape.</p>
+                </div>
+                <div class="bg-slate-950/40 border border-slate-900 rounded-xl p-3 flex flex-col gap-1">
+                    <p class="text-xs font-bold text-slate-300">Vector Quality</p>
+                    <p class="text-[11px] text-slate-500">Scale up the shapes indefinitely without pixelation or resolution losses.</p>
+                </div>
+                <div class="bg-slate-950/40 border border-slate-900 rounded-xl p-3 flex flex-col gap-1">
+                    <p class="text-xs font-bold text-slate-300">Enterprise Ready</p>
+                    <p class="text-[11px] text-slate-500">Uses the exact design tokens matching your technical stack narrative.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Control Panel / CTA -->
+        <div class="w-full lg:w-2/5 flex flex-col gap-6">
+            <div class="bg-slate-950 rounded-2xl border border-slate-800/80 p-6 flex flex-col gap-6 shadow-2xl">
+                <div>
+                    <h2 class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">PowerPoint Vector Downloader</h2>
+                    <p class="text-xs text-slate-400 mt-1">Generate and grab your brand elements instantly in one tap.</p>
+                </div>
+
+                <div class="border-t border-slate-800/80 my-1"></div>
+
+                <!-- Interactive Settings (Customize Text) -->
+                <div class="flex flex-col gap-4">
+                    <label class="flex flex-col gap-2">
+                        <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Main Brand Text</span>
+                        <input type="text" id="brandText" value="aimid" class="bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500" placeholder="e.g. aimid">
+                    </label>
+
+                    <label class="flex flex-col gap-2">
+                        <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Core Subtitle Text</span>
+                        <input type="text" id="subtitleText" value="AI MIDDLEWARE FOR THE ENTERPRISE" class="bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500" placeholder="e.g. AI MIDDLEWARE">
+                    </label>
+                </div>
+
+                <!-- Download Actions -->
+                <div class="flex flex-col gap-3">
+                    <button onclick="generatePPTX()" class="w-full py-4 px-6 rounded-xl font-bold text-sm bg-gradient-to-r from-cyan-400 to-blue-600 hover:from-cyan-300 hover:to-blue-500 text-slate-950 transition duration-200 transform hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] flex items-center justify-center gap-2 shadow-lg shadow-cyan-950/20">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        Download Editable .pptx File
+                    </button>
+                    <p class="text-[11px] text-center text-slate-500">Requires no installation or dependencies. Runs securely entirely inside your web browser.</p>
+                </div>
+
+                <!-- Customizing Instructions -->
+                <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-4 flex flex-col gap-2">
+                    <h3 class="text-xs font-bold text-slate-300 flex items-center gap-2">
+                        <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-12-12 9 9 0 0112 12z"></path></svg>
+                        After downloading your file:
+                    </h3>
+                    <ul class="list-disc pl-4 text-[11px] text-slate-500 flex flex-col gap-1">
+                        <li>Open the file in <strong>Microsoft PowerPoint</strong>, <strong>Apple Keynote</strong>, or <strong>Google Slides</strong>.</li>
+                        <li>Right-click on any element to select, recolor, resize, or group together.</li>
+                        <li>Double-click on the text frames to edit fonts or update titles instantly.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 bg-slate-950/40 py-4 text-center text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-6">
+            aimid — The missing control layer between your AI applications and your enterprise.
+        </div>
+    </footer>
+
+    <!-- PPTX Export Logic -->
+    <script>
+        // Update live preview in SVG on input change
+        const brandInput = document.getElementById('brandText');
+        const subtitleInput = document.getElementById('subtitleText');
+        
+        brandInput.addEventListener('input', (e) => {
+            const svgTexts = document.getElementsByTagName('text');
+            if(svgTexts.length > 0) svgTexts[0].textContent = e.target.value;
+        });
+
+        subtitleInput.addEventListener('input', (e) => {
+            const svgTexts = document.getElementsByTagName('text');
+            if(svgTexts.length > 1) svgTexts[1].textContent = e.target.value.toUpperCase();
+        });
+
+        // PPTX Generator Function
+        function generatePPTX() {
+            try {
+                // Initialize pptxgen Object
+                let pptx = new PptxGenJS();
+                pptx.layout = 'LAYOUT_16x9'; // Widescreen layout
+
+                // Add empty branding slide
+                let slide = pptx.addSlide();
+
+                // 1. Dark Obsidian slide background
+                slide.background = { color: '0B0F19' };
+
+                // Get current user customized text parameters
+                const brandVal = brandInput.value.trim() || 'aimid';
+                const subtitleVal = (subtitleInput.value.trim() || 'AI MIDDLEWARE FOR THE ENTERPRISE').toUpperCase();
+
+                // 2. Left Pillar shape (Secure Slate)
+                slide.addShape(pptx.ShapeType.roundRect, {
+                    x: 5.66, 
+                    y: 2.50, 
+                    w: 0.40, 
+                    h: 1.80,
+                    fill: { color: '334155' },
+                    line: { color: '334155', width: 0 }
+                });
+
+                // 3. Right Pillar shape (Secure Slate)
+                slide.addShape(pptx.ShapeType.roundRect, {
+                    x: 7.26, 
+                    y: 2.50, 
+                    w: 0.40, 
+                    h: 1.80,
+                    fill: { color: '334155' },
+                    line: { color: '334155', width: 0 }
+                });
+
+                // 4. Central Pillar (Kinetic Teal)
+                slide.addShape(pptx.ShapeType.roundRect, {
+                    x: 6.46, 
+                    y: 1.80, 
+                    w: 0.40, 
+                    h: 2.50,
+                    fill: { color: '00F2FE' },
+                    line: { color: '00F2FE', width: 0 }
+                });
+
+                // 5. Left Connection Bridge
+                slide.addShape(pptx.ShapeType.rect, {
+                    x: 5.92, 
+                    y: 2.15, 
+                    w: 0.70, 
+                    h: 0.20,
+                    fill: { color: '1E293B' },
+                    line: { color: '1E293B', width: 0 },
+                    rotate: 325 // Equivalent to -35 degrees
+                });
+
+                // 6. Right Connection Bridge
+                slide.addShape(pptx.ShapeType.rect, {
+                    x: 6.71, 
+                    y: 2.15, 
+                    w: 0.70, 
+                    h: 0.20,
+                    fill: { color: '1E293B' },
+                    line: { color: '1E293B', width: 0 },
+                    rotate: 35
+                });
+
+                // 7. Core Headline Text "aimid"
+                slide.addText(brandVal, {
+                    x: 3.66, 
+                    y: 4.60, 
+                    w: 6.00, 
+                    h: 1.00,
+                    align: 'center',
+                    fontFace: 'Segoe UI',
+                    fontSize: 56,
+                    bold: true,
+                    color: 'FFFFFF'
+                });
+
+                // 8. Core Subtitle Text "AI MIDDLEWARE FOR THE ENTERPRISE"
+                slide.addText(subtitleVal, {
+                    x: 2.66, 
+                    y: 5.60, 
+                    w: 8.00, 
+                    h: 0.50,
+                    align: 'center',
+                    fontFace: 'Segoe UI',
+                    fontSize: 11,
+                    bold: true,
+                    color: '94A3B8'
+                });
+
+                // Write PowerPoint file directly to the browser downloads
+                pptx.writeFile({ fileName: brandVal + '_logo_vector.pptx' });
+            } catch (err) {
+                console.error("Error creating PowerPoint presentation: ", err);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aimid — Trace Connector Logo Studio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- PPTXGenJS Library for client-side slide generation -->
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        mono: ['"Space Mono"', 'monospace'],
+                    },
+                    colors: {
+                        obsidian: {
+                            50: '#f8fafc',
+                            900: '#0B0F19',
+                            950: '#030712'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: radial-gradient(circle at 50% 50%, #0d1224 0%, #030712 100%);
+        }
+        input[type="range"] {
+            accent-color: #8b5cf6;
+        }
+        .glow-filter {
+            filter: drop-shadow(0px 0px 8px rgba(139, 92, 246, 0.4));
+        }
+    </style>
+</head>
+<body class="bg-obsidian-950 text-slate-100 font-sans h-full flex flex-col justify-between">
+
+    <header class="border-b border-slate-900 bg-obsidian-950/80 backdrop-blur-md sticky top-0 z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded bg-gradient-to-tr from-cyan-500 to-indigo-500 flex items-center justify-center font-extrabold text-sm tracking-tighter text-slate-950 shadow-lg">
+                    ai
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">aimid</h1>
+                    <p class="text-[9px] text-indigo-400 uppercase tracking-widest font-bold">Trace Connection Workspace</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="px-3 py-1 text-[11px] font-mono font-bold text-indigo-400 bg-indigo-950/40 rounded-full border border-indigo-800/40 flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse"></span>
+                    MATCHING IMAGE_EC210D.PNG SPECIFICATION (MULTI-LANE ACCELERATION)
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl w-full mx-auto p-4 md:p-8 grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Controls Panel (Left) -->
+        <div class="lg:col-span-4 flex flex-col gap-6">
+            <!-- Brand Overview & Trace Explanation -->
+            <div class="bg-obsidian-900 border border-slate-800/80 rounded-2xl p-5 flex flex-col gap-3">
+                <div class="flex items-center gap-2 text-indigo-400">
+                    <i data-lucide="git-branch" class="w-5 h-5"></i>
+                    <h3 class="text-sm font-bold uppercase tracking-wider">Multi-Lane Trace Bridge</h3>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    This studio recreates the connection architecture of <strong>image_ec210d.png</strong>. Now supporting **multiple parallel lanes**, it places a square-framed node over the first <strong>'i'</strong> stem and a circular node over the <strong>'m'</strong>, allowing you to inject synchronized, beautiful transmission paths across the bridge.
+                </p>
+                <div class="text-[11px] space-y-2 text-slate-500 pt-1 border-t border-slate-800">
+                    <div class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                        <span><strong>Node 1 (Over 'i'):</strong> Framed inside a micro-junction square.</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
+                        <span><strong>Node 2 (Over 'm'):</strong> Seamless transmission terminal point.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customizer Panel -->
+            <div class="bg-obsidian-900 border border-slate-800/80 rounded-2xl p-6 flex flex-col gap-5">
+                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
+                    <i data-lucide="sliders" class="w-4 h-4"></i> Trace Connector Parameters
+                </h4>
+
+                <!-- Trace Style Selector -->
+                <div class="flex flex-col gap-2">
+                    <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Bridge Style</label>
+                    <div class="grid grid-cols-2 gap-2">
+                        <button onclick="setTraceStyle('pcb')" id="btn-trace-pcb" class="px-3 py-2.5 rounded-xl border border-indigo-500 bg-indigo-950/40 text-xs font-bold text-indigo-300 transition">
+                            PCB Step
+                        </button>
+                        <button onclick="setTraceStyle('junction')" id="btn-trace-junction" class="px-3 py-2.5 rounded-xl border border-slate-800 bg-slate-950 text-xs font-bold text-slate-400 hover:border-slate-700 transition">
+                            Junction Dot
+                        </button>
+                        <button onclick="setTraceStyle('parallel')" id="btn-trace-parallel" class="px-3 py-2.5 rounded-xl border border-slate-800 bg-slate-950 text-xs font-bold text-slate-400 hover:border-slate-700 transition">
+                            Double Parallel
+                        </button>
+                        <button onclick="setTraceStyle('pulse')" id="btn-trace-pulse" class="px-3 py-2.5 rounded-xl border border-slate-800 bg-slate-950 text-xs font-bold text-slate-400 hover:border-slate-700 transition">
+                            Pulse Wave
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Lane Count Multiplier Slider -->
+                <div class="flex flex-col gap-2">
+                    <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex justify-between">
+                        <span>Parallel Lane Count</span>
+                        <span id="lane-count-label" class="text-[11px] font-mono text-indigo-400">3 Lanes</span>
+                    </label>
+                    <input type="range" id="trace-lanes" min="1" max="4" value="3" oninput="updateTraceCanvas()" class="w-full">
+                </div>
+
+                <!-- Trace Thickness Slider -->
+                <div class="flex flex-col gap-2">
+                    <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex justify-between">
+                        <span>Line Weight</span>
+                        <span id="weight-label" class="text-[11px] font-mono text-indigo-400">3px</span>
+                    </label>
+                    <input type="range" id="trace-weight" min="2" max="6" value="3" oninput="updateTraceCanvas()" class="w-full">
+                </div>
+
+                <!-- Color Palette Configuration -->
+                <div class="flex flex-col gap-2">
+                    <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Gateway Trace Color</label>
+                    <div class="flex items-center gap-3">
+                        <input type="color" id="trace-color" value="#8b5cf6" onchange="updateTraceCanvas()" class="bg-transparent border-0 w-8 h-8 cursor-pointer rounded">
+                        <span class="text-xs text-slate-400 font-mono">Dynamic Neon Accent</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Interactive SVG Workspace -->
+        <div class="lg:col-span-8 flex flex-col gap-6">
+            <div class="bg-obsidian-900 border border-slate-800/80 rounded-2xl p-6 flex flex-col justify-between h-full relative">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-1.5">
+                        <span class="w-2 h-2 rounded-full bg-indigo-500"></span>
+                        <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Interactive Trace Canvas</span>
+                    </div>
+                    <span class="text-[11px] text-slate-500">Precise Layout Alignment</span>
+                </div>
+
+                <!-- Main SVG Canvas Render Box -->
+                <div class="aspect-video w-full rounded-xl gradient-bg border border-slate-800/60 flex items-center justify-center relative overflow-hidden">
+                    <!-- Technical Grid Overlay -->
+                    <div class="absolute inset-0 bg-[linear-gradient(to_right,#334155_1px,transparent_1px),linear-gradient(to_bottom,#334155_1px,transparent_1px)] bg-[size:40px_40px] opacity-10"></div>
+
+                    <svg id="canvas-svg" viewBox="0 0 1000 562.5" class="w-full h-full">
+                        <defs>
+                            <!-- Gradients conforming to image_ec210d.png slate-to-violet spectrum -->
+                            <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#4fd1c5" />
+                                <stop offset="50%" stop-color="#6366f1" />
+                                <stop offset="100%" stop-color="#8b5cf6" />
+                            </linearGradient>
+                            <linearGradient id="midGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#a78bfa" />
+                                <stop offset="100%" stop-color="#60a5fa" />
+                            </linearGradient>
+                            
+                            <!-- Soft tech bloom filter -->
+                            <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+                                <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#8b5cf6" flood-opacity="0.25" />
+                            </filter>
+                        </defs>
+
+                        <!-- Logo Mark Group -->
+                        <g filter="url(#soft-glow)" id="wordmark-group">
+                            <!-- Premium Customized Typography matching image_ec210d.png -->
+                            <text id="txt-ai" x="180" y="380" font-family="'Plus Jakarta Sans', system-ui" font-size="200" font-weight="800" fill="url(#aiGrad)" letter-spacing="-8">ai</text>
+                            <text id="txt-mid" x="460" y="380" font-family="'Plus Jakarta Sans', system-ui" font-size="200" font-weight="800" fill="url(#midGrad)" letter-spacing="-8">mid</text>
+                            
+                            <!-- Embedded Interface Connection Lines & Nodes -->
+                            <!-- Node 1: Left over the first 'i' stem -->
+                            <!-- Square Outer Border Frame -->
+                            <rect id="node-square" x="358" y="163" width="46" height="46" rx="4" fill="none" stroke="#8b5cf6" stroke-width="5" />
+                            <!-- Circular Terminal Core -->
+                            <circle id="node-circle-left" cx="381" cy="186" r="16" fill="url(#aiGrad)" />
+
+                            <!-- Dynamic Trace Connector Bridge Container -->
+                            <g id="trace-connector-group">
+                                <!-- Dynamically replaced via JS -->
+                            </g>
+
+                            <!-- Node 2: Right Circle Terminal point over 'm' -->
+                            <circle id="node-circle-right" cx="579" cy="186" r="16" fill="url(#midGrad)" />
+                        </g>
+
+                        <!-- Tagline -->
+                        <text x="500" y="475" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui" font-size="14" font-weight="700" fill="#64748B" letter-spacing="8">AI MIDDLEWARE FOR THE ENTERPRISE</text>
+                    </svg>
+                </div>
+
+                <div class="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-800/60 pt-4">
+                    <p class="text-[11px] text-slate-500 max-w-md">
+                        Compatible with <strong>Canva</strong>. All vectors are preserved as groupable native shapes with editable texts.
+                    </p>
+                    <button onclick="downloadLogoPPTX()" class="bg-gradient-to-r from-cyan-500 to-indigo-500 hover:from-cyan-400 hover:to-indigo-400 text-slate-950 font-extrabold px-6 py-3.5 rounded-xl text-xs tracking-wider uppercase transition transform hover:-translate-y-0.5 active:translate-y-0 flex items-center gap-2 shadow-lg">
+                        <i data-lucide="download" class="w-4 h-4"></i>
+                        Export PPTX (Canva Optimized)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 bg-obsidian-950 py-4 text-center text-xs text-slate-600">
+        aimid — Enterprise Trust Bridge & Gateway Infrastructure
+    </footer>
+
+    <!-- Toast Notification Banner -->
+    <div id="toast-notif" class="fixed bottom-6 right-6 bg-slate-900 border border-indigo-500/50 text-slate-100 text-xs px-4 py-3 rounded-xl shadow-2xl transition-all duration-300 translate-y-24 opacity-0 pointer-events-none flex items-center gap-2 z-50">
+        <i data-lucide="check" class="w-4 h-4 text-indigo-400"></i>
+        <span id="toast-text">PPTX exported successfully!</span>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        let selectedStyle = 'pcb';
+
+        // Coordinates & Constants mapping to Canvas SVG
+        const gapStartX = 404; // Starting right after Node 1 frame
+        const gapEndX = 563;   // Starting right before Node 2 center circle
+        const centerY = 186;
+
+        function setTraceStyle(style) {
+            selectedStyle = style;
+            const buttons = ['pcb', 'junction', 'parallel', 'pulse'];
+            buttons.forEach(b => {
+                const btn = document.getElementById(`btn-trace-${b}`);
+                if (b === style) {
+                    btn.className = "px-3 py-2.5 rounded-xl border border-indigo-500 bg-indigo-950/40 text-xs font-bold text-indigo-300 transition";
+                } else {
+                    btn.className = "px-3 py-2.5 rounded-xl border border-slate-800 bg-slate-950 text-xs font-bold text-slate-400 hover:border-slate-700 transition";
+                }
+            });
+            updateTraceCanvas();
+        }
+
+        function updateTraceCanvas() {
+            const traceColor = document.getElementById('trace-color').value;
+            const traceWeight = parseInt(document.getElementById('trace-weight').value);
+            const lanes = parseInt(document.getElementById('trace-lanes').value);
+            
+            document.getElementById('weight-label').textContent = traceWeight + 'px';
+            document.getElementById('lane-count-label').textContent = lanes + (lanes === 1 ? ' Lane' : ' Lanes');
+
+            // Apply global updates to static elements
+            document.getElementById('node-square').setAttribute('stroke', traceColor);
+
+            const container = document.getElementById('trace-connector-group');
+            container.innerHTML = ''; // Clear prior bridge paths
+
+            // Vertical offset padding between parallel trace lanes
+            const spacing = 8;
+            const startOffset = -((lanes - 1) * spacing) / 2;
+
+            for (let i = 0; i < lanes; i++) {
+                const yOffset = startOffset + (i * spacing);
+                const currentY = centerY + yOffset;
+
+                // Left linear guide lead (from square border to the transition point)
+                const transitionStartX = gapStartX + 42; 
+                const transitionEndX = gapEndX - 42;
+
+                const lineLeft = document.createElementNS("http://www.w3.org/2000/svg", "line");
+                lineLeft.setAttribute('x1', gapStartX);
+                lineLeft.setAttribute('y1', currentY);
+                lineLeft.setAttribute('x2', transitionStartX);
+                lineLeft.setAttribute('y2', currentY);
+                lineLeft.setAttribute('stroke', '#4fd1c5');
+                lineLeft.setAttribute('stroke-width', traceWeight);
+                lineLeft.setAttribute('stroke-linecap', 'round');
+                container.appendChild(lineLeft);
+
+                // Right linear guide lead
+                const lineRight = document.createElementNS("http://www.w3.org/2000/svg", "line");
+                lineRight.setAttribute('x1', transitionEndX);
+                lineRight.setAttribute('y1', currentY);
+                lineRight.setAttribute('x2', gapEndX);
+                lineRight.setAttribute('y2', currentY);
+                lineRight.setAttribute('stroke', '#60a5fa');
+                lineRight.setAttribute('stroke-width', traceWeight);
+                lineRight.setAttribute('stroke-linecap', 'round');
+                container.appendChild(lineRight);
+
+                // Selected core trace connectors
+                if (selectedStyle === 'pcb') {
+                    // Classic diagonal PCB step
+                    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+                    const pathHeight = 14 + (i * 2); // nested steps
+                    path.setAttribute('d', `M ${transitionStartX} ${currentY} L ${transitionStartX + 10} ${currentY} L ${transitionStartX + 20} ${currentY + pathHeight} L ${transitionEndX - 10} ${currentY + pathHeight} L ${transitionEndX} ${currentY}`);
+                    path.setAttribute('fill', 'none');
+                    path.setAttribute('stroke', traceColor);
+                    path.setAttribute('stroke-width', traceWeight);
+                    path.setAttribute('stroke-linecap', 'round');
+                    path.setAttribute('stroke-linejoin', 'round');
+                    container.appendChild(path);
+
+                } else if (selectedStyle === 'junction') {
+                    // Middle intersection dot
+                    const midX = (transitionStartX + transitionEndX) / 2;
+                    
+                    const midLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+                    midLine.setAttribute('x1', transitionStartX);
+                    midLine.setAttribute('y1', currentY);
+                    midLine.setAttribute('x2', transitionEndX);
+                    midLine.setAttribute('y2', currentY);
+                    midLine.setAttribute('stroke', traceColor);
+                    midLine.setAttribute('stroke-width', traceWeight);
+                    container.appendChild(midLine);
+
+                    const nodeCircle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                    nodeCircle.setAttribute('cx', midX);
+                    nodeCircle.setAttribute('cy', currentY);
+                    nodeCircle.setAttribute('r', traceWeight * 1.6);
+                    nodeCircle.setAttribute('fill', traceColor);
+                    container.appendChild(nodeCircle);
+
+                } else if (selectedStyle === 'parallel') {
+                    // Beautiful alternating upward and downward curves (symmetrical split)
+                    const midX = (transitionStartX + transitionEndX) / 2;
+                    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+                    
+                    // Alternate direction: even lanes curve upward (-), odd lanes curve downward (+)
+                    const direction = (i % 2 === 0) ? -1 : 1;
+                    // Dynamic offset per lane so they don't overlap
+                    const curveOffset = (12 + Math.floor(i / 2) * 10) * direction;
+
+                    path.setAttribute('d', `M ${transitionStartX} ${currentY} Q ${transitionStartX + 20} ${currentY + curveOffset} ${midX} ${currentY + curveOffset} T ${transitionEndX} ${currentY}`);
+                    path.setAttribute('fill', 'none');
+                    path.setAttribute('stroke', traceColor);
+                    path.setAttribute('stroke-width', traceWeight);
+                    path.setAttribute('stroke-linecap', 'round');
+                    container.appendChild(path);
+
+                } else if (selectedStyle === 'pulse') {
+                    // High frequency digital pulse wave
+                    const step = (transitionEndX - transitionStartX) / 4;
+                    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+                    const pulseHeight = 12 + (i * 2);
+                    path.setAttribute('d', `M ${transitionStartX} ${currentY} L ${transitionStartX + step} ${currentY} L ${transitionStartX + step} ${currentY - pulseHeight} L ${transitionStartX + step * 3} ${currentY + pulseHeight} L ${transitionStartX + step * 3} ${currentY} L ${transitionEndX} ${currentY}`);
+                    path.setAttribute('fill', 'none');
+                    path.setAttribute('stroke', traceColor);
+                    path.setAttribute('stroke-width', traceWeight);
+                    path.setAttribute('stroke-linecap', 'round');
+                    path.setAttribute('stroke-linejoin', 'round');
+                    container.appendChild(path);
+                }
+            }
+        }
+
+        // Initialize Canvas Setup on Load
+        updateTraceCanvas();
+
+        function downloadLogoPPTX() {
+            try {
+                let pptx = new PptxGenJS();
+                pptx.layout = 'LAYOUT_WIDE'; // Widescreen canvas configuration
+
+                let slide = pptx.addSlide();
+                slide.background = { color: '030712' }; // Deep dark canvas workspace
+
+                const traceColorHex = document.getElementById('trace-color').value.replace('#', '');
+                const traceWeight = parseInt(document.getElementById('trace-weight').value);
+                const lanes = parseInt(document.getElementById('trace-lanes').value);
+
+                // Convert SVG pixels (1000px viewport) to PowerPoint coordinate scale (13.33 inches)
+                const scaleCoeff = 0.01333;
+
+                // 1. Title Part 1: "ai"
+                slide.addText("ai", {
+                    x: 180 * scaleCoeff,
+                    y: 2.1,
+                    w: 4.0,
+                    h: 3.0,
+                    fontFace: 'Segoe UI',
+                    fontSize: 140,
+                    bold: true,
+                    color: '4FD1C5'
+                });
+
+                // 2. Title Part 2: "mid"
+                slide.addText("mid", {
+                    x: 460 * scaleCoeff,
+                    y: 2.1,
+                    w: 6.0,
+                    h: 3.0,
+                    fontFace: 'Segoe UI',
+                    fontSize: 140,
+                    bold: true,
+                    color: '60A5FA'
+                });
+
+                // 3. Node 1 Square Frame (Outer Junction)
+                slide.addShape(pptx.ShapeType.rect, {
+                    x: 358 * scaleCoeff,
+                    y: 163 * scaleCoeff,
+                    w: 46 * scaleCoeff,
+                    h: 46 * scaleCoeff,
+                    fill: { color: '030712' },
+                    line: { color: traceColorHex, width: 4 }
+                });
+
+                // 4. Node 1 Circle Terminal
+                slide.addShape(pptx.ShapeType.oval, {
+                    x: 365 * scaleCoeff,
+                    y: 170 * scaleCoeff,
+                    w: 32 * scaleCoeff,
+                    h: 32 * scaleCoeff,
+                    fill: { color: '4FD1C5' },
+                    line: { color: '4FD1C5', width: 0 }
+                });
+
+                // Spacing logic for dynamic parallel PPTX shapes
+                const spacing = 8;
+                const startOffset = -((lanes - 1) * spacing) / 2;
+
+                // Loop to create the multi-lane lines natively in PPTX
+                for (let i = 0; i < lanes; i++) {
+                    const yOffset = startOffset + (i * spacing);
+                    const currentY = centerY + yOffset;
+
+                    // Transition points translated to PPTX coordinates
+                    const transitionStartX = gapStartX + 42;
+                    const transitionEndX = gapEndX - 42;
+
+                    // Left Lead
+                    slide.addShape(pptx.ShapeType.rect, {
+                        x: gapStartX * scaleCoeff,
+                        y: currentY * scaleCoeff,
+                        w: (transitionStartX - gapStartX) * scaleCoeff,
+                        h: traceWeight * scaleCoeff,
+                        fill: { color: '4FD1C5' }
+                    });
+
+                    // Right Lead
+                    slide.addShape(pptx.ShapeType.rect, {
+                        x: transitionEndX * scaleCoeff,
+                        y: currentY * scaleCoeff,
+                        w: (gapEndX - transitionEndX) * scaleCoeff,
+                        h: traceWeight * scaleCoeff,
+                        fill: { color: '60A5FA' }
+                    });
+
+                    // Bridge styles drawn as native vector blocks
+                    if (selectedStyle === 'pcb') {
+                        const pathHeight = 14 + (i * 2);
+                        // Left step segment
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: transitionStartX * scaleCoeff,
+                            y: currentY * scaleCoeff,
+                            w: 10 * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                        // Angled segment
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + 8) * scaleCoeff,
+                            y: (currentY + (pathHeight / 2) - (traceWeight / 2)) * scaleCoeff,
+                            w: 16 * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            rotate: 45,
+                            fill: { color: traceColorHex }
+                        });
+                        // Horizontal flat segment
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + 20) * scaleCoeff,
+                            y: (currentY + pathHeight) * scaleCoeff,
+                            w: (transitionEndX - transitionStartX - 30) * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                        // Right recovery angle
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionEndX - 18) * scaleCoeff,
+                            y: (currentY + (pathHeight / 2) - (traceWeight / 2)) * scaleCoeff,
+                            w: 16 * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            rotate: 315,
+                            fill: { color: traceColorHex }
+                        });
+
+                    } else if (selectedStyle === 'junction') {
+                        const midX = (transitionStartX + transitionEndX) / 2;
+                        // Center horizontal bar
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: transitionStartX * scaleCoeff,
+                            y: currentY * scaleCoeff,
+                            w: (transitionEndX - transitionStartX) * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                        // Central Dot Junction Node
+                        const dotRadius = traceWeight * 1.6;
+                        slide.addShape(pptx.ShapeType.oval, {
+                            x: (midX - dotRadius) * scaleCoeff,
+                            y: (currentY - dotRadius + (traceWeight / 2)) * scaleCoeff,
+                            w: (dotRadius * 2) * scaleCoeff,
+                            h: (dotRadius * 2) * scaleCoeff,
+                            fill: { color: traceColorHex },
+                            line: { color: traceColorHex, width: 0 }
+                        });
+
+                    } else if (selectedStyle === 'parallel') {
+                        // Symmetrical split curve approximation for PowerPoint/Canva vector translation
+                        const direction = (i % 2 === 0) ? -1 : 1;
+                        const curveOffset = (12 + Math.floor(i / 2) * 10) * direction;
+                        const segmentW = (transitionEndX - transitionStartX) / 3;
+
+                        // Slide segment 1: Angled leading path
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: transitionStartX * scaleCoeff,
+                            y: (currentY + (curveOffset / 4)) * scaleCoeff,
+                            w: segmentW * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            rotate: direction * 15,
+                            fill: { color: traceColorHex }
+                        });
+
+                        // Slide segment 2: Flat peak path
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + segmentW) * scaleCoeff,
+                            y: (currentY + curveOffset) * scaleCoeff,
+                            w: segmentW * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+
+                        // Slide segment 3: Angled recovery path
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + segmentW * 2) * scaleCoeff,
+                            y: (currentY + (curveOffset / 4)) * scaleCoeff,
+                            w: segmentW * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            rotate: -direction * 15,
+                            fill: { color: traceColorHex }
+                        });
+
+                    } else if (selectedStyle === 'pulse') {
+                        const step = (transitionEndX - transitionStartX) / 4;
+                        const pulseHeight = 12 + (i * 2);
+                        // Lead 1
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: transitionStartX * scaleCoeff,
+                            y: currentY * scaleCoeff,
+                            w: step * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                        // Up vertical
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + step) * scaleCoeff,
+                            y: (currentY - pulseHeight) * scaleCoeff,
+                            w: traceWeight * scaleCoeff,
+                            h: pulseHeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                        // Downward Diagonal
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + step) * scaleCoeff,
+                            y: (currentY - pulseHeight / 2) * scaleCoeff,
+                            w: (step * 2) * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            rotate: 35,
+                            fill: { color: traceColorHex }
+                        });
+                        // Up recovery
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + step * 3) * scaleCoeff,
+                            y: currentY * scaleCoeff,
+                            w: traceWeight * scaleCoeff,
+                            h: pulseHeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                        // Recovery lead
+                        slide.addShape(pptx.ShapeType.rect, {
+                            x: (transitionStartX + step * 3) * scaleCoeff,
+                            y: currentY * scaleCoeff,
+                            w: step * scaleCoeff,
+                            h: traceWeight * scaleCoeff,
+                            fill: { color: traceColorHex }
+                        });
+                    }
+                }
+
+                // 8. Node 2 Circle Terminal
+                slide.addShape(pptx.ShapeType.oval, {
+                    x: 563 * scaleCoeff,
+                    y: 170 * scaleCoeff,
+                    w: 32 * scaleCoeff,
+                    h: 32 * scaleCoeff,
+                    fill: { color: '60A5FA' },
+                    line: { color: '60A5FA', width: 0 }
+                });
+
+                // 9. Tagline Subtitle Block
+                slide.addText("AI MIDDLEWARE FOR THE ENTERPRISE", {
+                    x: 1.66,
+                    y: 6.2,
+                    w: 10.0,
+                    h: 0.6,
+                    align: 'center',
+                    fontFace: 'Segoe UI',
+                    fontSize: 13,
+                    bold: true,
+                    color: '64748B'
+                });
+
+                // Write PowerPoint file directly to the browser downloads.
+                pptx.writeFile({ fileName: `aimid_multiline_trace_vector.pptx` })
+                    .then(() => showToastNotification("Slide compiled successfully with parallel data lanes!"))
+                    .catch(writeErr => {
+                        console.error("PPTX export failed:", writeErr);
+                        showToastNotification("Unable to export PPTX. Check the browser console for details.");
+                    });
+
+            } catch (err) {
+                console.error("Vector compiler error: ", err);
+            }
+        }
+
+        function showToastNotification(msg) {
+            const toast = document.getElementById('toast-notif');
+            document.getElementById('toast-text').textContent = msg;
+            toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
